@@ -5,5 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
   </head>
-  <body></body>
+  <body>
+    <form class="feedback-form" autocomplete="off">
+      <label>
+        Email
+        <input type="email" name="email" id="email" autofocus />
+      </label>
+      <label>
+        Message
+        <textarea name="message" id="message" rows="8"></textarea>
+      </label>
+      <button type="submit">Submit</button>
+    </form>
+
+    <script type="module" src="./js/2-form.js"></script>
+  </body>
 </html>
